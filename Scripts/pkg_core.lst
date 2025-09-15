@@ -82,6 +82,7 @@ eza|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 duf|fish                                               # prettier version of df for fish
 fastfetch                                              # system information fetch tool
+kitty                                                  # shell prompt can support render image
 
 # --------------------------------------------------- // HyDE
 hypridle                                               # idle daemon
