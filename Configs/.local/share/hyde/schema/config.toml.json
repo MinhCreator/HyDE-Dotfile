@@ -402,7 +402,7 @@
             }
         },
         "battery.notify": {
-            "description": "batterynotify.sh configuration.",
+            "description": "Battery notification configuration.",
             "type": "object",
             "properties": {
                 "timer": {
@@ -834,19 +834,6 @@
                     "default": "8",
                     "description": "Bar sensitivity",
                     "type": "string"
-                }
-            }
-        },
-        "hypr.config": {
-            "description": "Hypr configuration.",
-            "type": "object",
-            "properties": {
-                "sanitize": {
-                    "description": "List of regex to sanitize in the theme.config.",
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
                 }
             }
         },
@@ -1345,7 +1332,7 @@
                     "type": "string"
                 },
                 "battery_notify": {
-                    "default": "hyde-shell app -u hyde-$XDG_SESSION_DESKTOP-battery-notify.service -t service -- batterynotify.sh",
+                    "default": "hyde-shell app -u hyde-$XDG_SESSION_DESKTOP-battery-notify.service -t service -- batterynotify.lua",
                     "description": "Battery notification script.",
                     "type": "string"
                 },
